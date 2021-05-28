@@ -73,3 +73,21 @@
   display: flex;
   align-items: center;
 }
+.customer_conteiner_arrow {
+  display: flex;
+  align-items: center;
+  width: 335px;
+  margin-top: 43px;
+}
+.customer_ellipse_item {
+  display: flex;
+  width: 94px;
+  padding: 0;
+}
+.customer_ellipse {
+  opacity: 0.3;
+}
+.first_arrow {
+  transform: rotate(-180deg);
+  opacity: 0.4;
+}
