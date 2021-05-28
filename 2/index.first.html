@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>Форма регистрации</h2>
+    <form action="#">
+      <fieldset>
+        <legend>Основная информация</legend>
+        <label for="FirstName">Имя *</label>
+        <input
+          type="text"
+          placeholder="Введите ваше имя"
+          name="FirstName"
+          id="FirstName"
+        />
+        <br />
+        <label for="LastName">Фамилия *</label>
+        <input
+          type="text"
+          placeholder="Введите вашу фамилию"
+          name="LastName"
+          id="LastName"
+        />
+        <br />
+        <label for="nickname">Nickname *</label>
+        <input
+          type="text"
+          placeholder="Введите ваш nickname"
+          name="nickname"
+          id="nickname"
+        />
+        <br />
+        <label for="BirthdayDay">Ваша дата рождения *</label>
+        <input type="date" name="BirthdayDay" id="BirthdayDay" />
+        <br />
+        <label for="TimeOfBirth">Ваше время рождения *</label>
+        <input type="time" name="TimeOfBirth" id="TimeOfBirth" />
+        <br />
+        <label for="CurrentCity">Ваш город *</label>
+        <select name="CurrentCity" id="CurrentCity">
+          <option value="value1">Введите город</option>
+          <option value="value3">Днепр</option>
+          <option value="value2">Киев</option>
+          <option value="value3">Одесса</option>
+          <option value="value3">Харьков</option>
+          <option value="value3">Львов</option>
+        </select>
+      </fieldset>
+      <br />
+      <fieldset>
+        <legend>Почта и пароль</legend>
+        <label for="email">Email *</label>
+        <input
+          type="email"
+          placeholder="Введите ваш email"
+          name="email"
+          id="email"
+        />
+        <br />
+        <label for="ReserveEmail">Запасной Email *</label>
+        <input
+          type="email"
+          placeholder="Введите ваш email"
+          name="ReserveEmail"
+          id="ReserveEmail"
+        />
+        <br />
+        <label for="password">Пароль *</label>
+        <input
+          type="password"
+          placeholder="Введите ваш пароль"
+          name="password"
+          id="password"
+        />
+        <br />
+        <label for="ConfirmPassword">Подтвердить пароль *</label>
+        <input
+          type="password"
+          placeholder="Введите ваш пароль"
+          name="ConfirmPassword"
+          id="ConfirmPassword"
+        />
+      </fieldset>
+      <br />
+      <fieldset>
+        <legend>Контактная информация</legend>
+        <label for="ADDphone">Телефон *</label>
+        <input
+          type="tel"
+          placeholder="Введите ваш телефон"
+          name="ADDphone"
+          id="ADDphone"
+        />
+        <br />
+        <label for="ReservedPhone">Дополнительный телефон</label>
+        <input
+          type="tel"
+          placeholder="Введите ваш телефон"
+          name="ReservedPhone"
+          id="ReservedPhone"
+        />
+        <br />
+        <label for="skype">Skype</label>
+        <input
+          type="text"
+          placeholder="Введите ваш skype"
+          name="skype"
+          id="skype"
+        />
+        <br />
+      </fieldset>
+      <br />
+      <fieldset>
+        <legend>Уровень навыков</legend>
+        <label for="HTMLSkills">HTML</label>
+        <br />
+        <input
+          type="range"
+          name="HTMLSkills"
+          id="HTMLSkills"
+          min="0"
+          max="100"
+          step="5"
+        />
+        <br />
+        <label for="CSSSkills">CSS</label>
+        <br />
+        <input
+          type="range"
+          name="CSSSkills"
+          id="CSSSkills"
+          min="0"
+          max="100"
+          step="10"
+        />
+      </fieldset>
+      <fieldset>
+        <legend>О себе</legend>
+        <label for="AboutMe">Расскажите о себе</label>
+        <br />
+        <textarea
+          placeholder="Введите текст"
+          name="text"
+          id="AboutMe"
+          cols="50"
+          rows="10"
+        >
+        </textarea>
+        <br />
+        <p>Ваш пол</p>
+        <input type="radio" name="gender" id="genderMan" value="Man" />
+        <label for="genderMan">Мужской</label>
+        <br />
+        <input type="radio" name="gender" id="genderWoman" value="Woman" />
+        <label for="genderWoman">Женский</label>
+        <br />
+        <input type="radio" name="gender" id="genderOther" value="Other" />
+        <label for="genderOther">Другое</label>
+        <br />
+        <br />
+        <label for="color">Ваш любимый цвет</label>
+        <br />
+        <input type="color" id="color" value="#AC0000" />
+        <br />
+        <p>Вид занятости</p>
+        <input type="radio" name="work" id="workFullTime" value="FullTime" />
+        <label for="workFullTime">Работаю full time</label>
+        <br />
+        <input type="radio" name="work" id="workPartTime" value="PartTime" />
+        <label for="workPartTime">Работаю part time</label>
+        <br />
+        <input type="radio" name="work" id="workFreelance" value="Freelance" />
+        <label for="workFreelance">Freelance</label>
+        <br />
+        <input type="radio" name="work" id="withoutWork" value="without" />
+        <label for="withoutWork">Временно не работаю</label>
+        <br />
+        <input type="radio" name="work" id="StudentWork" value="Student" />
+        <label for="StudentWork">Студент</label>
+        <p>Наличее домашних животных</p>
+        <input type="checkbox" name="pet" id="petCat" value="cat" />
+        <label for="petCat">Котик</label>
+        <br />
+        <input type="checkbox" name="pet" id="petDog" value="dog" />
+        <label for="petDog">Собачка</label>
+        <br />
+        <input type="checkbox" name="pet" id="petBird" value="bird" />
+        <label for="petBird">Птичка</label>
+        <br />
+        <input type="checkbox" name="pet" id="petFish" value="fish" />
+        <label for="petFish">Рыбка</label>
+        <br />
+        <input type="checkbox" name="pet" id="petOther" value="other" />
+        <label for="petOther">Другое</label>
+        <br />
+        <br />
+        <label for="typeFile">Добавить файл</label>
+        <br />
+        <input type="file" name="file" id="typeFile" />
+      </fieldset>
+      <br />
+      <fieldset>
+        <legend>Изучаемое направление</legend>
+        <label for="StudiePogramm">Выберите напрвление из списка</label>
+        <br />
+        <select name="StudiePogramm" id="StudiePogramm">
+          <option value="value1">Front-end</option>
+          <option value="value3">Back-end</option>
+          <option value="value2">Project Management</option>
+          <option value="value3">Business Analytics</option>
+        </select>
+      </fieldset>
+      <br />
+      <button type="submit">ОТПРАВИТЬ</button>
+      <button type="reset">ОЧИСТИТЬ</button>
+    </form>
+  </body>
+</html>
