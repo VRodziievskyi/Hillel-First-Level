@@ -1,0 +1,19 @@
+.wrap_five {
+  width: 808px;
+  margin: 0 auto;
+  border: 1px solid silver;
+  margin-top: 30px;
+}
+.five_img_text {
+  width: 265px;
+  padding: 35px 517px 106px 25px;
+}
+.wrap_five img {
+  padding-right: 22px;
+}
+.five_text {
+  display: inline-table;
+}
+.wrap_five h3 {
+  padding-bottom: 10px;
+}
