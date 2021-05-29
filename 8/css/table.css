@@ -1,5 +1,8 @@
-section {
-    width: 808px;
-    margin: 0 auto;
-
-.wrap
+.wrap {
+  width: 808px;
+  margin: 0 auto;
+  border: 1px solid silver;
+}
+.table_wrap {
+  margin: 35px 517px 106px 25px;
+}
