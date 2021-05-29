@@ -1,7 +1,14 @@
-* {
+body {
   box-sizing: border-box;
   margin: 0 auto;
   max-width: 1440px;
   text-decoration: none;
   list-style: none;
+}
+header {
+  background: #5c6f4e;
+  color: #ffffff;
+}
+header:first-child a {
+  margin: 29px 0;
 }
