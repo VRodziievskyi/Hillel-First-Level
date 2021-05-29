@@ -2,13 +2,43 @@ body {
   box-sizing: border-box;
   margin: 0 auto;
   max-width: 1440px;
-  text-decoration: none;
   list-style: none;
 }
 header {
+  position: fixed;
+  width: 1440px;
+  left: 0px;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background: #5c6f4e;
   color: #ffffff;
+  padding: 25px 165px;
 }
-header:first-child a {
-  margin: 29px 0;
+.logo_wrap {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.hide_text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  text-decoration: none;
+}
+nav {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  background: #7b89ba;
+  padding: 16px 74px 22px 10px;
 }
