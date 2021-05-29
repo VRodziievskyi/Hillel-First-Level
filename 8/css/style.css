@@ -1,3 +1,8 @@
-.wrap_section {
-  width: 808px;
+body {
+  box-sizing: border-box;
+  margin: 0 auto;
+  max-width: 1200px;
+  text-decoration: none;
+  list-style: none;
 }
+@import "./first.css";

@@ -1,0 +1,14 @@
+.wrap_section {
+  margin-top: 100px;
+  width: 808px;
+  display: flex;
+  border: 1px solid silver;
+  padding: 35px 517px 106px 25px;
+}
+.conteiner_name {
+  align-self: center;
+  gap: 9px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 22px;
+}
