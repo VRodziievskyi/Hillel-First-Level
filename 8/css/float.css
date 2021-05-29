@@ -1,7 +1,29 @@
-.wrap {
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.wrap_third {
   width: 808px;
-  height: 200px;
   margin: 0 auto;
   border: 1px solid silver;
   margin-top: 30px;
+}
+.list {
+  width: 265px;
+}
+.wrap_third section {
+  margin: 35px 517px 106px 25px;
+}
+.list img {
+  float: left;
+  margin-right: 22px;
+}
+.list div {
+  padding-left: 22px;
+  padding-top: 33px;
+}
+
+.list h3 {
+  margin-bottom: 10px;
 }
