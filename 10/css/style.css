@@ -1,0 +1,28 @@
+@import "./reset.css";
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+}
+.our_services_wrap_grid {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  width: 1120px;
+  margin: 0 auto;
+}
+.text-servies::after {
+  display: block;
+  content: "";
+  width: 56px;
+  height: 2px;
+  background-color: black;
+  border-radius: 1px;
+  margin: 0 auto;
+  margin-top: 26px;
+}
+.icon-services-wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 2fr 2fr;
+}
+. 
