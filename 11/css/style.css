@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0 auto;
+}
+.wraper {
+  height: 1000px;
+  width: 1000px;
+  background-image: url(./img/nochnoe_zvezdnoe_nebo.jpeg);
+}
+img {
+  width: 100%;
+}
