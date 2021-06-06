@@ -53,7 +53,7 @@ body {
   animation-timing-function: linear;
   animation-delay: 1s;
   position: absolute;
-  transform-origin: ;
+  /* transform-origin: ; */
 }
 .moon {
   max-width: 10%;
