@@ -27,7 +27,7 @@ body {
   animation-direction: alternate;
   animation-timing-function: linear;
   animation-delay: 1s;
-  margin: 200px;
+  position: relative;
 }
 .earth {
   max-width: 10%;
@@ -46,12 +46,14 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  animation-name: rotation-earth;
+  /* animation-name: rotation-earth; */
   animation-duration: 150s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
   animation-timing-function: linear;
   animation-delay: 1s;
+  position: absolute;
+  transform-origin: ;
 }
 .moon {
   max-width: 10%;
