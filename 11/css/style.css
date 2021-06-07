@@ -21,10 +21,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  animation-name: rotation-earth;
-  animation-duration: 150s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
+  animation-name: rotation;
+  animation-duration: 465s;
   animation-timing-function: linear;
   animation-delay: 1s;
   position: relative;
@@ -34,7 +32,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-@keyframes rotation-earth {
+@keyframes rotation {
   0% {
     transform: rotate(0);
   }
@@ -43,17 +41,12 @@ body {
   }
 }
 .conteiner-moon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /* animation-name: rotation-earth; */
-  animation-duration: 150s;
+  animation-name: rotation;
+  animation-duration: 200s;
   animation-iteration-count: infinite;
-  animation-direction: alternate;
   animation-timing-function: linear;
   animation-delay: 1s;
   position: absolute;
-  /* transform-origin: ; */
 }
 .moon {
   max-width: 10%;
