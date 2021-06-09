@@ -3,37 +3,39 @@
   font-style: normal;
   font-weight: 300;
   font-display: swap;
-  src: url(./fonts/Mulish-Light.woff2) format("woff2");
+  src: url(/7/fonts/Mulish-Light.woff2) format("woff2");
 }
 @font-face {
   font-family: "Mulish";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(/fonts/Mulish-Regular.woff2) format("woff2");
+  src: url(/7/fonts/Mulish-Regular.woff2) format("woff2");
 }
 @font-face {
   font-family: "Mulish";
   font-style: normal;
   font-weight: 600;
   font-display: swap;
-  src: url(/fonts/Mulish-SemiBold.woff2) format("woff2");
+  src: url(/7/fonts/Mulish-SemiBold.woff2) format("woff2");
 }
 @font-face {
   font-family: "Mulish";
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url(/fonts/Mulish-Bold.woff2) format("woff2");
+  src: url(/7/fonts/Mulish-Bold.woff2) format("woff2");
 }
 * {
-  font-family: "Mulish", sans-serif, serif;
   box-sizing: border-box;
   margin: 0 auto;
-  max-width: 1600px;
   text-decoration: none;
   list-style: none;
 }
-body {
+body,
+html {
   background-color: #e5e5e5;
+  font-family: "Mulish", sans-serif, serif;
+
+  max-width: 1600px;
 }
