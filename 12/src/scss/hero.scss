@@ -19,23 +19,21 @@
   display: flex;
   align-items: center;
   .img-logo {
-    background-color: #458ff6;
+    background-color: $button-color;
     border-radius: 50%;
     width: 41px;
     height: 41px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: Mulish;
-    font-weight: 700;
+    @include Mulish-700;
     font-size: 26px;
     line-height: 1.26;
-    color: #ffffff;
+    color: $another-general-color;
     margin-right: 12px;
   }
   .text-logo {
-    font-family: Mulish;
-    font-weight: 700;
+    @include Mulish-700;
     font-size: 24px;
     line-height: 1.25;
     color: #233348;
@@ -43,20 +41,16 @@
 }
 
 .nav-home {
-  font-family: Mulish;
-  font-weight: 700;
-  font-style: normal;
+  @include Mulish-700;
   font-size: 18px;
   line-height: 1.33;
-  color: #1f1534;
+  color: $general-color;
 }
 .nav-text {
-  font-family: Mulish;
-  font-weight: 400;
-  font-style: normal;
+  @include Mulish-400;
   font-size: 18px;
   line-height: 1.33;
-  color: #1f1534;
+  color: $general-color;
   opacity: 0.5;
   margin-left: 40px;
 }
@@ -71,31 +65,26 @@
     margin: 0;
   }
   .general-text-hero-content {
-    font-family: Mulish;
-    font-style: normal;
-    font-weight: bold;
+    @include Mulish-700;
     font-size: 48px;
     line-height: 1.17;
-    color: #000000;
+    color: $general-color;
     mix-blend-mode: normal;
   }
   .text-hero-content {
-    font-family: Mulish;
-    font-style: normal;
-    font-weight: 300;
+    @include Mulish-300;
     font-size: 21px;
     line-height: 1.52;
-    color: #7d7987;
+    color: $secondary-color;
     mix-blend-mode: normal;
   }
   .button {
-    font-family: Mulish;
-    font-weight: 700;
+    @include Mulish-700;
     font-size: 18px;
     line-height: 3.33;
-    color: #ffffff;
-    background-color: #458ff6;
-    border: 1.4px solid #458ff6;
+    color: $another-general-color;
+    background-color: $button-color;
+    border: 1.4px solid $button-color;
     width: 200px;
     border-radius: 55px;
     margin-top: 48px;

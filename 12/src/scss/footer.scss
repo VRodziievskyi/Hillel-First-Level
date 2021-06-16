@@ -13,46 +13,40 @@
       align-items: center;
       margin-bottom: 12px;
       .img-logo-footer {
-        background-color: #ffffff;
+        background-color: $another-general-color;
         border-radius: 50%;
         width: 41px;
         height: 41px;
         display: flex;
         justify-content: center;
         align-items: center;
-        font-family: Mulish;
-        font-weight: 700;
+        @include Mulish-700;
         font-size: 26px;
         line-height: 1.26;
-        color: #5b9bf3;
+        color: $button-color;
         margin: 0;
         margin-right: 12px;
       }
       .text-logo-footer {
-        font-family: Mulish;
-        font-weight: 700;
+        @include Mulish-700;
         font-size: 24px;
         line-height: 1.25;
-        color: #ffffff;
+        color: $another-general-color;
         margin: 0;
       }
     }
     .footer-text {
-      font-family: Mulish;
-      font-style: normal;
-      font-weight: 300;
+      @include Mulish-300;
       font-size: 18px;
       line-height: 1.56;
-      color: #ffffff;
+      color: $another-general-color;
       margin-bottom: 31px;
     }
     .footer-text-est {
-      font-family: Mulish;
-      font-style: normal;
-      font-weight: 300;
+      @include Mulish-300;
       font-size: 16px;
       line-height: 1.56;
-      color: #ffffff;
+      color: $another-general-color;
     }
   }
   .footer-list-wrap {
@@ -62,30 +56,24 @@
     width: 660px;
     padding: 0;
     .general_name_list {
-      font-family: Mulish;
-      font-style: normal;
-      font-weight: bold;
+      @include Mulish-700;
       font-size: 20px;
       line-height: 3;
-      color: #ffffff;
+      color: $another-general-color;
     }
     .list-foter {
       padding: 0;
       .general_name_list {
-        font-family: Mulish;
-        font-style: normal;
-        font-weight: bold;
+        @include Mulish-700;
         font-size: 20px;
         line-height: 3;
-        color: #ffffff;
+        color: $another-general-color;
       }
       .company-list-text {
-        font-family: Mulish;
-        font-style: normal;
-        font-weight: 300;
+        @include Mulish-300;
         font-size: 18px;
         line-height: 2.11;
-        color: #ffffff;
+        color: $another-general-color;
       }
     }
   }

@@ -39,3 +39,27 @@ html {
 
   max-width: 1600px;
 }
+@mixin Mulish-300 {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 300;
+}
+@mixin Mulish-400 {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+}
+@mixin Mulish-600 {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+}
+@mixin Mulish-700 {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+}
+$general-color: #000000;
+$secondary-color: #7d7987;
+$button-color: #458ff6;
+$another-general-color: #ffffff;

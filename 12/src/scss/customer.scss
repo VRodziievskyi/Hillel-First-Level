@@ -5,18 +5,17 @@
   margin-top: 265px;
   padding: 64px 118px 83px;
   .customer_general_text {
-    font-family: Mulish;
-    font-weight: bold;
+    @include Mulish-700;
     font-size: 36px;
     line-height: 1.33;
-    color: #ffffff;
+    color: $another-general-color;
     text-align: center;
     &::after {
       display: block;
       content: "";
       width: 56px;
       height: 2px;
-      background-color: #ffffff;
+      background-color: $another-general-color;
       border-radius: 6px;
       margin: 0 auto;
       margin-top: 25px;
@@ -41,15 +40,13 @@
         justify-content: center;
         margin-left: 29px;
         .customer_icon_name {
-          font-family: Mulish;
+          @include Mulish-700;
           font-size: 22px;
           line-height: 2.18;
-          color: #ffffff;
+          color: $another-general-color;
         }
         .customer_founder {
-          font-family: Mulish;
-          font-style: normal;
-          font-weight: normal;
+          @include Mulish-400;
           font-size: 18px;
           line-height: 2.67;
           color: rgba(255, 255, 255, 0.85);
@@ -63,9 +60,7 @@
     display: flex;
     align-items: center;
     .customer_text {
-      font-family: Mulish;
-      font-style: normal;
-      font-weight: normal;
+      @include Mulish-400;
       font-size: 19px;
       line-height: 1.58;
       color: rgba(255, 255, 255, 0.9);
