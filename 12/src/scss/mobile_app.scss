@@ -4,61 +4,61 @@
   justify-content: space-between;
   width: 1155px;
   margin-top: 220px;
-}
-.mobile_text_button_wrap {
-  width: 420px;
-  align-self: center;
-  margin: 0;
-}
-.mobile_picture_wrap {
-  margin: 0;
-}
-.mobile-general-text {
-  font-family: Mulish;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 1.33;
-  color: #000000;
-  mix-blend-mode: normal;
-  width: 254px;
-  margin: 0;
-}
-.mobile-general-text::after {
-  display: block;
-  content: "";
-  width: 56px;
-  height: 2px;
-  background-color: black;
-  border-radius: 1px;
-  margin: 26px 0 31px 0;
-}
-.mobile-text {
-  font-family: Mulish;
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 1.67;
-  color: #7d7987;
-  mix-blend-mode: normal;
-  width: 420px;
-}
-.button_mobile {
-  display: flex;
-  justify-content: center;
-  font-family: Mulish;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 18px;
-  line-height: 3.33;
-  color: #458ff6;
-  background-color: #ffffff;
-  border: 1.4px solid #458ff6;
-  width: 200px;
-  border-radius: 55px;
-  margin-top: 35px;
-}
-div > p > button > img {
-  margin: 0;
-  width: 15px;
-  background-color: #ffffff;
-  padding-left: 6px;
+  .mobile_text_button_wrap {
+    width: 420px;
+    align-self: center;
+    margin: 0;
+    .mobile-general-text {
+      font-family: Mulish;
+      font-weight: bold;
+      font-size: 36px;
+      line-height: 1.33;
+      color: #000000;
+      mix-blend-mode: normal;
+      width: 254px;
+      margin: 0;
+      &::after {
+        display: block;
+        content: "";
+        width: 56px;
+        height: 2px;
+        background-color: black;
+        border-radius: 1px;
+        margin: 26px 0 31px 0;
+      }
+    }
+    .mobile-text {
+      font-family: Mulish;
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 1.67;
+      color: #7d7987;
+      mix-blend-mode: normal;
+      width: 420px;
+    }
+    .button_mobile {
+      display: flex;
+      justify-content: center;
+      font-family: Mulish;
+      font-weight: 700;
+      font-style: normal;
+      font-size: 18px;
+      line-height: 3.33;
+      color: #458ff6;
+      background-color: #ffffff;
+      border: 1.4px solid #458ff6;
+      width: 200px;
+      border-radius: 55px;
+      margin-top: 35px;
+      .button_mobile_png {
+        margin: 0;
+        width: 15px;
+        background-color: #ffffff;
+        padding-left: 6px;
+      }
+    }
+  }
+  .mobile_picture_wrap {
+    margin: 0;
+  }
 }
