@@ -1,0 +1,84 @@
+.footer_wrap {
+  display: flex;
+  flex-direction: row;
+  width: 1600px;
+  height: 432px;
+  background: linear-gradient(183.41deg, #67c3f3 -8.57%, #5a98f2 82.96%);
+  padding: 109px 238px 109px 190px;
+  .logo-text-footer-wrap {
+    width: 391px;
+    margin-top: 12px;
+    .link-logo-footer {
+      display: flex;
+      align-items: center;
+      margin-bottom: 12px;
+      .img-logo-footer {
+        background-color: $another-general-color;
+        border-radius: 50%;
+        width: 41px;
+        height: 41px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        @include Mulish-700;
+        font-size: 26px;
+        line-height: 1.26;
+        color: $button-color;
+        margin: 0;
+        margin-right: 12px;
+      }
+      .text-logo-footer {
+        @include Mulish-700;
+        font-size: 24px;
+        line-height: 1.25;
+        color: $another-general-color;
+        margin: 0;
+      }
+    }
+    .footer-text {
+      @include Mulish-300;
+      font-size: 18px;
+      line-height: 1.56;
+      color: $another-general-color;
+      margin-bottom: 31px;
+    }
+    .footer-text-est {
+      @include Mulish-300;
+      font-size: 16px;
+      line-height: 1.56;
+      color: $another-general-color;
+    }
+  }
+  .footer-list-wrap {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 660px;
+    padding: 0;
+    .general_name_list {
+      @include Mulish-700;
+      font-size: 20px;
+      line-height: 3;
+      color: $another-general-color;
+    }
+    .list-foter {
+      padding: 0;
+      .general_name_list {
+        @include Mulish-700;
+        font-size: 20px;
+        line-height: 3;
+        color: $another-general-color;
+      }
+      .company-list-text {
+        @include Mulish-300;
+        font-size: 18px;
+        line-height: 2.11;
+        color: $another-general-color;
+      }
+    }
+  }
+}
+
+footer > div > ul > li {
+  margin: 0;
+}

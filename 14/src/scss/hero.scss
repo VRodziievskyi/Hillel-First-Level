@@ -1,0 +1,97 @@
+.hero {
+  min-height: 100vh;
+  margin-top: 40px;
+  width: 1245px;
+}
+.conteiner-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.link-logo,
+.nav-wrap {
+  margin: 0px;
+}
+.conteiner-nav {
+  display: flex;
+}
+.link-logo {
+  display: flex;
+  align-items: center;
+  .img-logo {
+    background-color: $button-color;
+    border-radius: 50%;
+    width: 41px;
+    height: 41px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @include Mulish-700;
+    font-size: 26px;
+    line-height: 1.26;
+    color: $another-general-color;
+    margin-right: 12px;
+  }
+  .text-logo {
+    @include Mulish-700;
+    font-size: 24px;
+    line-height: 1.25;
+    color: #233348;
+  }
+}
+
+.nav-home {
+  @include Mulish-700;
+  font-size: 18px;
+  line-height: 1.33;
+  color: $general-color;
+}
+.nav-text {
+  @include Mulish-400;
+  font-size: 18px;
+  line-height: 1.33;
+  color: $general-color;
+  opacity: 0.5;
+  margin-left: 40px;
+}
+.hero-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 85px;
+  .text-button-hero-content {
+    width: 445px;
+    align-self: center;
+    margin: 0;
+  }
+  .general-text-hero-content {
+    @include Mulish-700;
+    font-size: 48px;
+    line-height: 1.17;
+    color: $general-color;
+    mix-blend-mode: normal;
+  }
+  .text-hero-content {
+    @include Mulish-300;
+    font-size: 21px;
+    line-height: 1.52;
+    color: $secondary-color;
+    mix-blend-mode: normal;
+  }
+  .button {
+    @include Mulish-700;
+    font-size: 18px;
+    line-height: 3.33;
+    color: $another-general-color;
+    background-color: $button-color;
+    border: 1.4px solid $button-color;
+    width: 200px;
+    border-radius: 55px;
+    margin-top: 48px;
+  }
+  .picture-hero-content {
+    width: 693px;
+    height: 598px;
+    margin: 0;
+  }
+}

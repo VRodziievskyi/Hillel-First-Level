@@ -1,0 +1,65 @@
+@font-face {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(/7/fonts/Mulish-Light.woff2) format("woff2");
+}
+@font-face {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/7/fonts/Mulish-Regular.woff2) format("woff2");
+}
+@font-face {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(/7/fonts/Mulish-SemiBold.woff2) format("woff2");
+}
+@font-face {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/7/fonts/Mulish-Bold.woff2) format("woff2");
+}
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+  text-decoration: none;
+  list-style: none;
+}
+body,
+html {
+  background-color: #e5e5e5;
+  font-family: "Mulish", sans-serif, serif;
+
+  max-width: 1600px;
+}
+@mixin Mulish-300 {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 300;
+}
+@mixin Mulish-400 {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+}
+@mixin Mulish-600 {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+}
+@mixin Mulish-700 {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+}
+$general-color: #000000;
+$secondary-color: #7d7987;
+$button-color: #458ff6;
+$another-general-color: #ffffff;

@@ -1,0 +1,83 @@
+.latest_article_wrap {
+  width: 1120px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 222px;
+  .latest_article_general_text {
+    @include Mulish-700;
+    font-size: 36px;
+    line-height: 1.56;
+    color: $general-color;
+    &::after {
+      display: block;
+      content: "";
+      width: 56px;
+      height: 2px;
+      background-color: $general-color;
+      border-radius: 5px;
+      margin: 0 auto;
+      margin-top: 25px;
+      margin-bottom: 80px;
+    }
+  }
+  .conteiner_list_latest_article {
+    padding: 0;
+    display: flex;
+    .list_latest_article {
+      width: 350px;
+      background: $another-general-color;
+      box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+      border-radius: 20px;
+      .list_latest_picture {
+        border-radius: 20px 20px 0 0;
+      }
+      .latest_text_link_wrap {
+        display: flex;
+        flex-direction: column;
+        padding: 24px 66px 35px 33px;
+        .list_latest_general_text {
+          @include Mulish-700;
+          font-size: 21px;
+          line-height: 1.52;
+          color: $general-color;
+          text-align: left;
+          margin-bottom: 12px;
+        }
+        .list_latest_text {
+          @include Mulish-300;
+          font-size: 16px;
+          line-height: 1.75;
+          color: $secondary-color;
+          text-align: left;
+          margin-bottom: 25px;
+        }
+        .list_latest_link {
+          @include Mulish-600;
+          font-size: 17px;
+          line-height: 1.65;
+          color: $button-color;
+          text-align: left;
+          margin: 0;
+          .list_latest_link_frame {
+            margin-left: 16px;
+          }
+        }
+      }
+    }
+  }
+  .button_services_latest_wrap {
+    text-align: center;
+    .button_services_latest {
+      @include Mulish-700;
+      font-size: 18px;
+      line-height: 3.33;
+      color: $button-color;
+      background-color: $another-general-color;
+      border: 1.4px solid $button-color;
+      width: 200px;
+      border-radius: 55px;
+      box-sizing: border-box;
+      margin: 72px 0 200px 0;
+    }
+  }
+}

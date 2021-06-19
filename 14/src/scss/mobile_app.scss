@@ -1,0 +1,60 @@
+.mobile_wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1155px;
+  margin-top: 220px;
+  .mobile_text_button_wrap {
+    width: 420px;
+    align-self: center;
+    margin: 0;
+    .mobile-general-text {
+      @include Mulish-700;
+      font-size: 36px;
+      line-height: 1.33;
+      color: $general-color;
+      mix-blend-mode: normal;
+      width: 254px;
+      margin: 0;
+      &::after {
+        display: block;
+        content: "";
+        width: 56px;
+        height: 2px;
+        background-color: $general-color;
+        border-radius: 1px;
+        margin: 26px 0 31px 0;
+      }
+    }
+    .mobile-text {
+      @include Mulish-300;
+      font-size: 18px;
+      line-height: 1.67;
+      color: $secondary-color;
+      mix-blend-mode: normal;
+      width: 420px;
+    }
+    .button_mobile {
+      display: flex;
+      justify-content: center;
+      @include Mulish-700;
+      font-size: 18px;
+      line-height: 3.33;
+      color: $button-color;
+      background-color: $another-general-color;
+      border: 1.4px solid $button-color;
+      width: 200px;
+      border-radius: 55px;
+      margin-top: 35px;
+      .button_mobile_png {
+        margin: 0;
+        width: 15px;
+        background-color: $another-general-color;
+        padding-left: 6px;
+      }
+    }
+  }
+  .mobile_picture_wrap {
+    margin: 0;
+  }
+}
