@@ -20,6 +20,10 @@
       margin: 0 auto;
       margin-top: 25px;
     }
+    @include tablet {
+      font-size: 26px;
+      line-height: 1.01;
+    }
   }
   .customer_icon_text_wrap {
     display: flex;
@@ -44,6 +48,10 @@
           font-size: 22px;
           line-height: 2.18;
           color: $another-general-color;
+          @include tablet {
+            font-size: 15px;
+            line-height: 1.68;
+          }
         }
         .customer_founder {
           @include Mulish-400;
@@ -51,8 +59,15 @@
           line-height: 2.67;
           color: rgba(255, 255, 255, 0.85);
           margin: 0;
+          @include mobile {
+            font-size: 14px;
+            line-height: 1.67;
+          }
         }
       }
+    }
+    @include mobile {
+      padding: 15px 0 0px 0;
     }
   }
   .customer_text_wrap {
@@ -65,7 +80,17 @@
       line-height: 1.58;
       color: rgba(255, 255, 255, 0.9);
       width: 341px;
+      @include tablet {
+        font-size: 15px;
+        line-height: 1.33;
+        width: 240px;
+        margin-left: 20px;
+      }
     }
+  }
+  @include tablet {
+    max-width: 100%;
+    padding: 20px 118px 20px;
   }
 }
 

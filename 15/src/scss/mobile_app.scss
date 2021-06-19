@@ -57,4 +57,17 @@
   .mobile_picture_wrap {
     margin: 0;
   }
+  @include tablet {
+    max-width: 90%;
+    gap: 10px;
+    margin-top: 70px;
+  }
+  @include mobile {
+    max-width: 93%;
+    flex-direction: column;
+    img {
+      width: 80%;
+    }
+    padding-top: 10px;
+  }
 }

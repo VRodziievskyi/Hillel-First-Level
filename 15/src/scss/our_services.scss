@@ -3,6 +3,9 @@
 }
 .first-row-icon {
   margin-bottom: 35px;
+  @include mobile {
+    margin-bottom: 0px;
+  }
 }
 .text-servies {
   @include Mulish-700;
@@ -30,6 +33,9 @@
   color: $secondary-color;
   text-align: center;
   margin-top: 33px;
+  @include mobile {
+    max-width: 93%;
+  }
 }
 
 .icon-information {
@@ -38,6 +44,9 @@
     flex-wrap: wrap;
     max-width: 1140px;
     margin-top: 80px;
+    @include mobile {
+      gap: 15px;
+    }
   }
   li {
     padding: 54px 37px 46px;

@@ -64,6 +64,10 @@
         }
       }
     }
+    @include mobile {
+      flex-direction: column;
+      gap: 15px;
+    }
   }
   .button_services_latest_wrap {
     text-align: center;
@@ -79,5 +83,8 @@
       box-sizing: border-box;
       margin: 72px 0 200px 0;
     }
+  }
+  @include mobile {
+    max-width: 93%;
   }
 }

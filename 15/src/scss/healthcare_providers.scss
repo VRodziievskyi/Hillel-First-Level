@@ -7,7 +7,19 @@
   .healthcare_picture {
     margin: 0;
   }
+  @include tablet {
+    max-width: 90%;
+    gap: 10px;
+  }
+  @include mobile {
+    flex-direction: column;
+    img {
+      width: 80%;
+    }
+    margin-top: 50px;
+  }
 }
+
 .healthcare_text_button_wrap {
   width: 486px;
   align-self: center;
